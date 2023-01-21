@@ -4,7 +4,8 @@ import urllib.request
 
 
 def main():
-    with urllib.request.urlopen('https://alx-intranet.hbtn.io/status') as response:
+    with urllib.request.urlopen('https://alx-intranet.hbtn.io/status'
+                                ) as response:
         body = response.read()
         print("Body response:")
         print("\t- type: {}".format(type(body)))
