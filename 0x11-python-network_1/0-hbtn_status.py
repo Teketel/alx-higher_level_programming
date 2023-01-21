@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-
+"""Fetch web response
+"""
 import urllib.request
 
 
